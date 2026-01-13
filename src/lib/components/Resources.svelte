@@ -41,7 +41,7 @@
         <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Blog post" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
         <div class="absolute bottom-0 left-0 p-8 w-full">
-           <h3 class="text-xl font-semibold text-white mb-2">5 ways to reduce email response times in logistics operations</h3>
+           <h3 class="text-xl font-semibold text-white mb-2">5 Wege zur Reduzierung der E-Mail-Antwortzeiten in Logistikabläufen</h3>
            <div class="flex justify-end">
              <div class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center text-white">
                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>

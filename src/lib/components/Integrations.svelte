@@ -1,13 +1,13 @@
 <section class="py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-12">
-      <div class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Integrations</div>
+      <div class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Integrationen</div>
       <h2 class="text-3xl font-semibold text-gray-900 mb-4">
-        Connect with your logistics systems
+        Verbinden Sie sich mit Ihren Logistiksystemen
       </h2>
-      <p class="text-gray-500">Seamlessly integrate with TMS, WMS, ERP, and other critical logistics platforms.</p>
+      <p class="text-gray-500">Nahtlose Integration mit TMS, WMS, ERP und anderen kritischen Logistikplattformen.</p>
       <a href="#" class="text-sm font-medium text-primary-600 hover:text-primary-700 flex items-center gap-1 mt-4">
-        View all integrations 
+        Alle Integrationen ansehen 
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
       </a>
     </div>

@@ -7,60 +7,60 @@
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-16">
       <!-- Column 1 -->
       <div class="flex flex-col gap-4">
-        <h4 class="font-semibold text-gray-900 text-sm">Product</h4>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Overview</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Email Classification</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">AI Drafting</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Integrations</a>
+        <h4 class="font-semibold text-gray-900 text-sm">Produkt</h4>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Übersicht</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">E-Mail-Klassifizierung</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">KI-Entwürfe</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Integrationen</a>
         <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Analytics</a>
       </div>
 
       <!-- Column 2 -->
       <div class="flex flex-col gap-4">
-        <h4 class="font-semibold text-gray-900 text-sm">Solutions</h4>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Freight Forwarders</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">3PL Providers</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Customs Brokers</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Carriers</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Warehousing</a>
+        <h4 class="font-semibold text-gray-900 text-sm">Lösungen</h4>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Spediteure</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">3PL-Anbieter</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Zollmakler</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Frachtführer</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Lagerhaltung</a>
       </div>
 
       <!-- Column 3 -->
       <div class="flex flex-col gap-4">
-        <h4 class="font-semibold text-gray-900 text-sm">Resources</h4>
+        <h4 class="font-semibold text-gray-900 text-sm">Ressourcen</h4>
         <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Blog</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Case Studies</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Documentation</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">API Reference</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Help Center</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Fallstudien</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Dokumentation</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">API-Referenz</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Hilfecenter</a>
       </div>
 
       <!-- Column 4 -->
       <div class="flex flex-col gap-4">
-        <h4 class="font-semibold text-gray-900 text-sm">Company</h4>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">About Us</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Careers</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Contact</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Partners</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Press</a>
+        <h4 class="font-semibold text-gray-900 text-sm">Unternehmen</h4>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Über uns</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Karriere</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Kontakt</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Partner</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Presse</a>
       </div>
 
        <!-- Column 5 -->
       <div class="flex flex-col gap-4">
-        <h4 class="font-semibold text-gray-900 text-sm">Legal</h4>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Privacy Policy</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Terms of Service</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Security</a>
+        <h4 class="font-semibold text-gray-900 text-sm">Rechtliches</h4>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Datenschutz</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Nutzungsbedingungen</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Sicherheit</a>
         <a href="#" class="text-sm text-gray-500 hover:text-gray-900">Compliance</a>
-        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">GDPR</a>
+        <a href="#" class="text-sm text-gray-500 hover:text-gray-900">DSGVO</a>
       </div>
 
        <!-- Column 6 (Newsletter) -->
       <div class="flex flex-col gap-4 lg:col-span-1">
         <h4 class="font-semibold text-gray-900 text-sm">Newsletter</h4>
-        <p class="text-sm text-gray-500">Get logistics automation insights and updates delivered to your inbox.</p>
+        <p class="text-sm text-gray-500">Erhalten Sie Einblicke und Updates zur Logistikautomatisierung direkt in Ihr Postfach.</p>
         <div class="flex flex-col gap-2">
-           <Button variant="secondary" size="sm" class="w-full !bg-black !text-white !rounded-lg">Subscribe</Button>
+           <Button variant="secondary" size="sm" class="w-full !bg-black !text-white !rounded-lg">Abonnieren</Button>
         </div>
       </div>
     </div>

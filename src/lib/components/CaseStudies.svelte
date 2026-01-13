@@ -37,7 +37,7 @@
           </div>
           <div>
             <div class="text-5xl font-bold text-white mb-2">12K+</div>
-            <div class="text-sm text-gray-200">Emails automated per month</div>
+            <div class="text-sm text-gray-200">E-Mails pro Monat automatisiert</div>
           </div>
         </div>
       </div>

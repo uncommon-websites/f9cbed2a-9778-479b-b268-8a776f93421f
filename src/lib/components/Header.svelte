@@ -27,10 +27,10 @@
         </a>
 
         <nav class="hidden md:flex items-center gap-6">
-          <a href="#product" class="text-sm font-medium text-gray-600 hover:text-gray-900">Product</a>
-          <a href="#solutions" class="text-sm font-medium text-gray-600 hover:text-gray-900">Solutions</a>
-          <a href="#resources" class="text-sm font-medium text-gray-600 hover:text-gray-900">Resources</a>
-          <a href="#company" class="text-sm font-medium text-gray-600 hover:text-gray-900">Company</a>
+          <a href="#product" class="text-sm font-medium text-gray-600 hover:text-gray-900">Produkt</a>
+          <a href="#solutions" class="text-sm font-medium text-gray-600 hover:text-gray-900">Lösungen</a>
+          <a href="#resources" class="text-sm font-medium text-gray-600 hover:text-gray-900">Ressourcen</a>
+          <a href="#company" class="text-sm font-medium text-gray-600 hover:text-gray-900">Unternehmen</a>
         </nav>
       </div>
 

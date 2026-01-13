@@ -39,32 +39,32 @@
         <div class="space-y-3">
           <div class="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
             <div class="flex items-center justify-between mb-1">
-              <div class="text-xs font-semibold text-blue-900">Quote Request</div>
-              <div class="text-xs text-blue-600">95% confidence</div>
+              <div class="text-xs font-semibold text-blue-900">Angebotsanfrage</div>
+              <div class="text-xs text-blue-600">95% Sicherheit</div>
             </div>
             <div class="text-xs text-blue-700">FCL Shanghai → Rotterdam</div>
           </div>
           
           <div class="p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
             <div class="flex items-center justify-between mb-1">
-              <div class="text-xs font-semibold text-green-900">Booking Confirmation</div>
-              <div class="text-xs text-green-600">98% confidence</div>
+              <div class="text-xs font-semibold text-green-900">Buchungsbestätigung</div>
+              <div class="text-xs text-green-600">98% Sicherheit</div>
             </div>
             <div class="text-xs text-green-700">Container #MSCU1234567</div>
           </div>
           
           <div class="p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
             <div class="flex items-center justify-between mb-1">
-              <div class="text-xs font-semibold text-purple-900">Tracking Update</div>
-              <div class="text-xs text-purple-600">97% confidence</div>
+              <div class="text-xs font-semibold text-purple-900">Sendungsverfolgung</div>
+              <div class="text-xs text-purple-600">97% Sicherheit</div>
             </div>
-            <div class="text-xs text-purple-700">Vessel departed port</div>
+            <div class="text-xs text-purple-700">Schiff hat Hafen verlassen</div>
           </div>
         </div>
         
         <!-- Floating routing indicator -->
         <div class="absolute -right-8 top-1/2 -translate-y-1/2 bg-primary-600 text-white p-2 rounded-lg shadow-md text-xs font-medium">
-          Auto-routed →
+          Auto-weitergeleitet →
         </div>
       </div>
     </div>
@@ -101,20 +101,20 @@
             <div class="bg-blue-50 p-3 rounded text-xs space-y-1 border border-blue-100">
                <div class="flex justify-between">
                   <span class="text-gray-600">20' Container:</span>
-                  <span class="font-semibold text-gray-900">$2,450</span>
+                  <span class="font-semibold text-gray-900">2.450 €</span>
                </div>
                <div class="flex justify-between">
                   <span class="text-gray-600">40' Container:</span>
-                  <span class="font-semibold text-gray-900">$3,200</span>
+                  <span class="font-semibold text-gray-900">3.200 €</span>
                </div>
                <div class="flex justify-between">
-                  <span class="text-gray-600">Transit time:</span>
-                  <span class="font-semibold text-gray-900">28-32 days</span>
+                  <span class="text-gray-600">Transitzeit:</span>
+                  <span class="font-semibold text-gray-900">28-32 Tage</span>
                </div>
             </div>
             <div class="flex items-center gap-2 text-xs text-green-600 bg-green-50 p-2 rounded">
                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-               Draft ready for review
+               Entwurf bereit zur Überprüfung
             </div>
          </div>
        </div>
@@ -123,18 +123,18 @@
 
   <!-- Feature 3: System Integration -->
   <FeatureSection 
-    title="Deep integration with your logistics systems"
-    subtitle="SEAMLESS CONNECTIVITY"
-    linkText="View integrations"
+    title="Tiefe Integration mit Ihren Logistiksystemen"
+    subtitle="NAHTLOSE KONNEKTIVITÄT"
+    linkText="Integrationen ansehen"
     bullets={[
-      "Direct integration with TMS, WMS, and ERP systems",
-      "Real-time data sync for accurate responses",
-      "API-first architecture for custom workflows",
-      "Pre-built connectors for SAP, Oracle, and more"
+      "Direkte Integration mit TMS-, WMS- und ERP-Systemen",
+      "Echtzeit-Datensynchronisation für präzise Antworten",
+      "API-First-Architektur für individuelle Workflows",
+      "Vorgefertigte Konnektoren für SAP, Oracle und mehr"
     ]}
   >
     <div slot="description">
-      <p>LOGAID connects directly to your existing systems, pulling real-time shipment data and updating records automatically—no manual data entry required.</p>
+      <p>LOGAID verbindet sich direkt mit Ihren bestehenden Systemen, ruft Echtzeit-Sendungsdaten ab und aktualisiert Datensätze automatisch – keine manuelle Dateneingabe erforderlich.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
        <!-- Integration diagram -->
@@ -192,34 +192,34 @@
        <div class="bg-white rounded-xl shadow-lg w-full p-6 space-y-4">
           <div class="grid grid-cols-2 gap-4">
              <div class="bg-blue-50 p-4 rounded-lg border border-blue-100">
-                <div class="text-2xl font-bold text-blue-900">2,847</div>
-                <div class="text-xs text-blue-700">Emails processed today</div>
+                <div class="text-2xl font-bold text-blue-900">2.847</div>
+                <div class="text-xs text-blue-700">E-Mails heute verarbeitet</div>
              </div>
              <div class="bg-green-50 p-4 rounded-lg border border-green-100">
-                <div class="text-2xl font-bold text-green-900">4.2 min</div>
-                <div class="text-xs text-green-700">Avg. response time</div>
+                <div class="text-2xl font-bold text-green-900">4,2 Min.</div>
+                <div class="text-xs text-green-700">Durchschn. Antwortzeit</div>
              </div>
           </div>
           
           <div class="space-y-2">
-             <div class="text-xs font-semibold text-gray-700">Top Email Categories</div>
+             <div class="text-xs font-semibold text-gray-700">Top E-Mail-Kategorien</div>
              <div class="space-y-2">
                 <div class="flex items-center gap-2">
-                   <div class="text-xs text-gray-600 w-24">Quote Requests</div>
+                   <div class="text-xs text-gray-600 w-24">Angebotsanfragen</div>
                    <div class="flex-1 bg-gray-100 rounded-full h-2">
                       <div class="bg-primary-600 h-2 rounded-full" style="width: 45%"></div>
                    </div>
                    <div class="text-xs font-semibold text-gray-900">45%</div>
                 </div>
                 <div class="flex items-center gap-2">
-                   <div class="text-xs text-gray-600 w-24">Tracking</div>
+                   <div class="text-xs text-gray-600 w-24">Sendungsverfolgung</div>
                    <div class="flex-1 bg-gray-100 rounded-full h-2">
                       <div class="bg-primary-600 h-2 rounded-full" style="width: 30%"></div>
                    </div>
                    <div class="text-xs font-semibold text-gray-900">30%</div>
                 </div>
                 <div class="flex items-center gap-2">
-                   <div class="text-xs text-gray-600 w-24">Bookings</div>
+                   <div class="text-xs text-gray-600 w-24">Buchungen</div>
                    <div class="flex-1 bg-gray-100 rounded-full h-2">
                       <div class="bg-primary-600 h-2 rounded-full" style="width: 25%"></div>
                    </div>
@@ -233,18 +233,18 @@
 
   <!-- Feature 5: Multi-language Support -->
   <FeatureSection 
-    title="Handle global freight communication effortlessly"
-    subtitle="MULTI-LANGUAGE SUPPORT"
-    linkText="See language capabilities"
+    title="Globale Frachtkommunikation mühelos bewältigen"
+    subtitle="MEHRSPRACHIGE UNTERSTÜTZUNG"
+    linkText="Sprachfähigkeiten ansehen"
     bullets={[
-      "Automatic detection and translation of 40+ languages",
-      "Maintains context and logistics terminology accuracy",
-      "Responds in customer's preferred language",
-      "Supports regional variations and industry jargon"
+      "Automatische Erkennung und Übersetzung von über 40 Sprachen",
+      "Behält Kontext und Logistikterminologie-Genauigkeit bei",
+      "Antwortet in der bevorzugten Sprache des Kunden",
+      "Unterstützt regionale Variationen und Branchenjargon"
     ]}
   >
     <div slot="description">
-      <p>Communicate with partners worldwide without language barriers. LOGAID understands and responds in multiple languages while maintaining accuracy.</p>
+      <p>Kommunizieren Sie mit Partnern weltweit ohne Sprachbarrieren. LOGAID versteht und antwortet in mehreren Sprachen bei gleichbleibender Genauigkeit.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center px-8">
        <!-- Multi-language email examples -->
@@ -304,7 +304,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
              </div>
              <div class="font-bold text-sm text-gray-900">SOC 2 Type II</div>
-             <div class="text-xs text-gray-500 mt-1">Certified</div>
+             <div class="text-xs text-gray-500 mt-1">Zertifiziert</div>
           </div>
           
           <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
@@ -312,23 +312,23 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
              </div>
              <div class="font-bold text-sm text-gray-900">ISO 27001</div>
-             <div class="text-xs text-gray-500 mt-1">Certified</div>
+             <div class="text-xs text-gray-500 mt-1">Zertifiziert</div>
           </div>
           
           <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
              <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
              </div>
-             <div class="font-bold text-sm text-gray-900">GDPR</div>
-             <div class="text-xs text-gray-500 mt-1">Compliant</div>
+             <div class="font-bold text-sm text-gray-900">DSGVO</div>
+             <div class="text-xs text-gray-500 mt-1">Konform</div>
           </div>
           
           <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
              <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
              </div>
-             <div class="font-bold text-sm text-gray-900">256-bit</div>
-             <div class="text-xs text-gray-500 mt-1">Encryption</div>
+             <div class="font-bold text-sm text-gray-900">256-Bit</div>
+             <div class="text-xs text-gray-500 mt-1">Verschlüsselung</div>
           </div>
        </div>
     </div>
@@ -341,4 +341,31 @@
 </main>
 
 <Footer />
+
+/>
+  <Resources />
+  <BottomCTA />
+</main>
+
+<Footer />
+
+er />
+
+
+  <BottomCTA />
+</main>
+
+<Footer />
+
+er />
+
+/>
+
+
+  <BottomCTA />
+</main>
+
+<Footer />
+
+er />
 

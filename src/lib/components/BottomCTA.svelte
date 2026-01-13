@@ -14,11 +14,11 @@
       
       <div class="absolute inset-0 flex flex-col justify-center px-8 md:px-16 max-w-3xl">
         <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
-          Ready to automate your logistics email operations?
+          Bereit, Ihre Logistik-E-Mail-Operationen zu automatisieren?
         </h2>
         <div class="flex flex-col sm:flex-row gap-4">
-          <Button variant="primary" size="lg" class="rounded-full px-8">Book a demo</Button>
-          <Button variant="outline" size="lg" class="rounded-full px-8 bg-white text-gray-900 border-none hover:bg-gray-100">See pricing</Button>
+          <Button variant="primary" size="lg" class="rounded-full px-8">Demo buchen</Button>
+          <Button variant="outline" size="lg" class="rounded-full px-8 bg-white text-gray-900 border-none hover:bg-gray-100">Preise ansehen</Button>
         </div>
       </div>
     </div>

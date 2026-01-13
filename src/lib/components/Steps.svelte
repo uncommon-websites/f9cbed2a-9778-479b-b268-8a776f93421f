@@ -27,9 +27,9 @@
         <div class="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center text-white mb-6">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
         </div>
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Generate accurate draft responses</h3>
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Präzise Antwortentwürfe generieren</h3>
         <p class="text-sm text-gray-500 leading-relaxed">
-          LOGAID drafts context-aware replies using your company data, past communications, and logistics best practices.
+          LOGAID erstellt kontextbewusste Antworten unter Verwendung Ihrer Unternehmensdaten, früherer Kommunikation und bewährter Logistikpraktiken.
         </p>
       </div>
 

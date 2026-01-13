@@ -19,7 +19,7 @@
 
     <!-- Logos Strip -->
     <div class="mb-12">
-      <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-6 text-left sm:ml-4">Trusted by logistics providers<br>processing millions of emails</p>
+      <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-6 text-left sm:ml-4">Vertraut von Logistikanbietern,<br>die Millionen von E-Mails verarbeiten</p>
       <div class="flex flex-wrap items-center justify-center gap-12 opacity-60 grayscale px-4">
         <!-- DHL -->
         <span class="text-3xl font-bold font-sans tracking-tight">DHL</span>
