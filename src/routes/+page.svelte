@@ -18,240 +18,318 @@
   <Stats />
   <Steps />
   
-  <!-- Feature 1: Convert signups -->
+  <!-- Feature 1: Email Classification -->
   <FeatureSection 
-    title="Convert signups to active users with sophisticated onboarding flows"
-    subtitle="OPTIMIZE EVERY STEP OF THE CUSTOMER JOURNEY"
-    linkText="Marketing platform"
+    title="Intelligent email classification that understands logistics"
+    subtitle="AI-POWERED EMAIL ROUTING"
+    linkText="See classification in action"
     bullets={[
-      "Account creation and KYC reminders",
-      "Push notifications/email reminders for account completion",
-      "Message templates for every channel",
-      "AI-optimized send times for higher activation rates"
+      "Automatically categorizes quotes, bookings, tracking, and customs",
+      "Routes emails to the right team or workflow instantly",
+      "Learns from your specific logistics terminology",
+      "Handles multiple languages and formats"
     ]}
   >
     <div slot="description">
-      <p>Guide new customers from account creation to first transaction with multi-step onboarding flows.</p>
+      <p>Stop manually sorting through thousands of emails. LOGAID's AI instantly identifies email types and routes them to the correct destination.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-      <!-- Mockup for onboarding flow -->
-      <div class="bg-white rounded-xl shadow-lg p-6 w-[80%] max-w-sm relative">
-        <div class="flex items-center gap-2 mb-4">
-          <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">1</div>
-          <div class="text-sm font-semibold">Create account</div>
-        </div>
+      <!-- Email classification mockup -->
+      <div class="bg-white rounded-xl shadow-lg p-6 w-[90%] max-w-md relative">
         <div class="space-y-3">
-          <div class="h-2 bg-gray-100 rounded w-full"></div>
-          <div class="h-8 bg-blue-600 rounded w-full text-white flex items-center justify-center text-sm font-medium">Create account</div>
-          <div class="flex items-center gap-2 mt-4 p-3 bg-green-50 rounded-lg border border-green-100">
-             <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-xs">✓</div>
-             <div class="text-xs text-green-800">Your verification code is 123456 - do not share this code.</div>
+          <div class="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+            <div class="flex items-center justify-between mb-1">
+              <div class="text-xs font-semibold text-blue-900">Quote Request</div>
+              <div class="text-xs text-blue-600">95% confidence</div>
+            </div>
+            <div class="text-xs text-blue-700">FCL Shanghai → Rotterdam</div>
+          </div>
+          
+          <div class="p-3 bg-green-50 rounded-lg border-l-4 border-green-500">
+            <div class="flex items-center justify-between mb-1">
+              <div class="text-xs font-semibold text-green-900">Booking Confirmation</div>
+              <div class="text-xs text-green-600">98% confidence</div>
+            </div>
+            <div class="text-xs text-green-700">Container #MSCU1234567</div>
+          </div>
+          
+          <div class="p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+            <div class="flex items-center justify-between mb-1">
+              <div class="text-xs font-semibold text-purple-900">Tracking Update</div>
+              <div class="text-xs text-purple-600">97% confidence</div>
+            </div>
+            <div class="text-xs text-purple-700">Vessel departed port</div>
           </div>
         </div>
         
-        <!-- Floating elements -->
-        <div class="absolute -right-12 top-10 bg-white p-3 rounded-lg shadow-md flex items-center gap-2">
-           <div class="w-6 h-6 bg-gray-900 rounded-full flex items-center justify-center text-white text-xs">$</div>
-           <div class="text-xs font-medium">One step left!</div>
+        <!-- Floating routing indicator -->
+        <div class="absolute -right-8 top-1/2 -translate-y-1/2 bg-primary-600 text-white p-2 rounded-lg shadow-md text-xs font-medium">
+          Auto-routed →
         </div>
       </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 2: Deliver authentication -->
+  <!-- Feature 2: AI Draft Responses -->
   <FeatureSection 
-    title="Deliver authentication instantly"
-    subtitle=""
-    linkText="Data platform"
+    title="AI-generated draft responses in seconds"
+    subtitle="SMART EMAIL DRAFTING"
+    linkText="See drafting capabilities"
     reversed={true}
     bullets={[
-      "Real-time OTP codes via SMS, WhatsApp, and push",
-      "Authentication Journeys with automated fallbacks",
-      "End-to-end encryption",
-      "Compliance-ready verification templates"
+      "Context-aware responses using your company data",
+      "Pulls real-time information from TMS and WMS",
+      "Maintains your brand voice and terminology",
+      "Supports 40+ languages automatically"
     ]}
   >
     <div slot="description">
-      <p>Ensure secure logins and transactions with global OTP delivery, fallback options, and end-to-end encryption.</p>
+      <p>Let AI handle the heavy lifting. LOGAID generates accurate, professional draft responses that your team can review and send with one click.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Diagram -->
-       <div class="flex flex-col items-center gap-4">
-         <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 w-64 flex items-center gap-3">
-            <div class="w-8 h-8 bg-purple-100 rounded flex items-center justify-center text-purple-600">⚡</div>
-            <div class="text-sm">
-               <div class="font-semibold">Trigger</div>
-               <div class="text-xs text-gray-500">Customer makes a purchase</div>
-            </div>
+       <!-- Email draft mockup -->
+       <div class="bg-white rounded-xl shadow-lg w-[90%] overflow-hidden border border-gray-100">
+         <div class="bg-gray-50 p-3 border-b border-gray-200">
+            <div class="text-xs text-gray-500 mb-1">To: customer@example.com</div>
+            <div class="text-xs font-semibold text-gray-900">Re: Quote Request - Shanghai to Rotterdam</div>
          </div>
-         <div class="h-8 w-px bg-gray-300"></div>
-         <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 w-64 flex items-center gap-3">
-            <div class="w-8 h-8 bg-green-100 rounded flex items-center justify-center text-green-600">💬</div>
-            <div class="text-sm">
-               <div class="font-semibold">Send SMS</div>
-               <div class="text-xs text-gray-500">Send verification code to...</div>
+         <div class="p-4 space-y-3">
+            <div class="text-xs text-gray-700">Dear Customer,</div>
+            <div class="text-xs text-gray-700 leading-relaxed">
+               Thank you for your quote request. Based on your requirements for FCL shipment from Shanghai to Rotterdam:
             </div>
-         </div>
-         <div class="h-8 w-px bg-gray-300"></div>
-         <div class="bg-orange-50 p-2 rounded-full text-xs text-orange-600 font-medium px-4 border border-orange-100">
-            Conditioner
+            <div class="bg-blue-50 p-3 rounded text-xs space-y-1 border border-blue-100">
+               <div class="flex justify-between">
+                  <span class="text-gray-600">20' Container:</span>
+                  <span class="font-semibold text-gray-900">$2,450</span>
+               </div>
+               <div class="flex justify-between">
+                  <span class="text-gray-600">40' Container:</span>
+                  <span class="font-semibold text-gray-900">$3,200</span>
+               </div>
+               <div class="flex justify-between">
+                  <span class="text-gray-600">Transit time:</span>
+                  <span class="font-semibold text-gray-900">28-32 days</span>
+               </div>
+            </div>
+            <div class="flex items-center gap-2 text-xs text-green-600 bg-green-50 p-2 rounded">
+               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+               Draft ready for review
+            </div>
          </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 3: Send transaction updates -->
+  <!-- Feature 3: System Integration -->
   <FeatureSection 
-    title="Send transaction and account updates automatically"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Deep integration with your logistics systems"
+    subtitle="SEAMLESS CONNECTIVITY"
+    linkText="View integrations"
     bullets={[
-      "Real-time transaction confirmations via Push",
-      "Low balance and overdraft alerts",
-      "Multi-language and currency localization support",
-      "Spending summaries and insights"
+      "Direct integration with TMS, WMS, and ERP systems",
+      "Real-time data sync for accurate responses",
+      "API-first architecture for custom workflows",
+      "Pre-built connectors for SAP, Oracle, and more"
     ]}
   >
     <div slot="description">
-      <p>Keep customers informed with instant, trusted notifications for every financial event.</p>
+      <p>LOGAID connects directly to your existing systems, pulling real-time shipment data and updating records automatically—no manual data entry required.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Mobile list UI -->
-       <div class="bg-white rounded-2xl shadow-lg p-4 w-64 space-y-4">
-          <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded-lg">
-             <div class="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center text-white">$</div>
-             <div>
-                <div class="text-xs font-bold">Transaction received</div>
-                <div class="text-[10px] text-gray-500">You received $45.00 from Paul</div>
+       <!-- Integration diagram -->
+       <div class="flex flex-col items-center gap-6 w-full">
+          <div class="bg-primary-600 text-white p-4 rounded-lg shadow-md font-semibold text-sm">
+             LOGAID
+          </div>
+          
+          <div class="flex gap-3">
+             <div class="h-12 w-px bg-gray-300"></div>
+             <div class="h-12 w-px bg-gray-300"></div>
+             <div class="h-12 w-px bg-gray-300"></div>
+          </div>
+          
+          <div class="grid grid-cols-3 gap-4 w-full max-w-md">
+             <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-center">
+                <div class="text-xs font-semibold text-gray-900 mb-1">TMS</div>
+                <div class="text-[10px] text-gray-500">CargoWise</div>
+             </div>
+             <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-center">
+                <div class="text-xs font-semibold text-gray-900 mb-1">WMS</div>
+                <div class="text-[10px] text-gray-500">SAP EWM</div>
+             </div>
+             <div class="bg-white p-3 rounded-lg shadow-sm border border-gray-200 text-center">
+                <div class="text-xs font-semibold text-gray-900 mb-1">ERP</div>
+                <div class="text-[10px] text-gray-500">Oracle</div>
              </div>
           </div>
-          <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded-lg">
-             <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white">atm</div>
-             <div>
-                <div class="text-xs font-bold">ATM withdrawal</div>
-                <div class="text-[10px] text-gray-500">$100 from Main Street ATM</div>
-             </div>
-          </div>
-          <div class="flex items-center gap-3 p-2 hover:bg-gray-50 rounded-lg">
-             <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white">☕</div>
-             <div>
-                <div class="text-xs font-bold">Starbucks Coffee</div>
-                <div class="text-[10px] text-gray-500">You spent $4.95</div>
-             </div>
+          
+          <div class="bg-green-50 px-4 py-2 rounded-full text-xs text-green-700 font-medium border border-green-200">
+             ✓ Real-time sync active
           </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 4: Keep customers active -->
+  <!-- Feature 4: Analytics & Insights -->
   <FeatureSection 
-    title="Keep customers active and loyal"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Actionable insights from every email interaction"
+    subtitle="ANALYTICS & REPORTING"
+    linkText="Explore analytics"
     reversed={true}
     bullets={[
-      "Product upgrade and feature adoption nudges",
-      "Automated Journeys by event",
-      "Segmentation by customer value",
-      "Built-in A/B testing"
+      "Track response times and team performance",
+      "Identify common customer requests and pain points",
+      "Monitor classification accuracy and improve over time",
+      "Export reports for compliance and auditing"
     ]}
   >
     <div slot="description">
-      <p>Re-engage inactive users and reward loyal ones with personalized campaigns.</p>
+      <p>Understand your email operations like never before. LOGAID provides detailed analytics to help you optimize workflows and improve customer service.</p>
     </div>
-    <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Email Mockup -->
-       <div class="bg-white rounded-xl shadow-lg w-[80%] overflow-hidden border border-gray-100">
-          <div class="bg-gray-50 p-3 border-b border-gray-100 flex items-center gap-2">
-             <div class="w-3 h-3 rounded-full bg-red-400"></div>
-             <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-             <div class="w-3 h-3 rounded-full bg-green-400"></div>
-          </div>
-          <div class="p-6">
-             <div class="flex items-center gap-2 mb-4">
-                <div class="w-8 h-8 bg-black rounded-full"></div>
-                <div class="text-xs font-semibold">LumePay • info@lumepay.com</div>
+    <div slot="visual" class="w-full h-full flex items-center justify-center px-4">
+       <!-- Analytics dashboard mockup -->
+       <div class="bg-white rounded-xl shadow-lg w-full p-6 space-y-4">
+          <div class="grid grid-cols-2 gap-4">
+             <div class="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                <div class="text-2xl font-bold text-blue-900">2,847</div>
+                <div class="text-xs text-blue-700">Emails processed today</div>
              </div>
-             <div class="text-sm font-bold mb-2">Hi <span class="bg-yellow-100 px-1 rounded text-yellow-800">{`{{FirstName}}`}</span></div>
-             <p class="text-xs text-gray-500 mb-4">
-                We saw you just made your first transfer abroad — welcome to the global stage!
-             </p>
-             <p class="text-xs text-gray-500">
-                Did you know Gold members save up to 1.5% on every currency conversion?
-             </p>
+             <div class="bg-green-50 p-4 rounded-lg border border-green-100">
+                <div class="text-2xl font-bold text-green-900">4.2 min</div>
+                <div class="text-xs text-green-700">Avg. response time</div>
+             </div>
+          </div>
+          
+          <div class="space-y-2">
+             <div class="text-xs font-semibold text-gray-700">Top Email Categories</div>
+             <div class="space-y-2">
+                <div class="flex items-center gap-2">
+                   <div class="text-xs text-gray-600 w-24">Quote Requests</div>
+                   <div class="flex-1 bg-gray-100 rounded-full h-2">
+                      <div class="bg-primary-600 h-2 rounded-full" style="width: 45%"></div>
+                   </div>
+                   <div class="text-xs font-semibold text-gray-900">45%</div>
+                </div>
+                <div class="flex items-center gap-2">
+                   <div class="text-xs text-gray-600 w-24">Tracking</div>
+                   <div class="flex-1 bg-gray-100 rounded-full h-2">
+                      <div class="bg-primary-600 h-2 rounded-full" style="width: 30%"></div>
+                   </div>
+                   <div class="text-xs font-semibold text-gray-900">30%</div>
+                </div>
+                <div class="flex items-center gap-2">
+                   <div class="text-xs text-gray-600 w-24">Bookings</div>
+                   <div class="flex-1 bg-gray-100 rounded-full h-2">
+                      <div class="bg-primary-600 h-2 rounded-full" style="width: 25%"></div>
+                   </div>
+                   <div class="text-xs font-semibold text-gray-900">25%</div>
+                </div>
+             </div>
           </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 5: Understand what drives -->
+  <!-- Feature 5: Multi-language Support -->
   <FeatureSection 
-    title="Understand what drives transactions and engagement"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Handle global freight communication effortlessly"
+    subtitle="MULTI-LANGUAGE SUPPORT"
+    linkText="See language capabilities"
     bullets={[
-      "Attribution dashboards",
-      "SLA reporting",
-      "Content performance reporting",
-      "Optimal send-time analysis"
+      "Automatic detection and translation of 40+ languages",
+      "Maintains context and logistics terminology accuracy",
+      "Responds in customer's preferred language",
+      "Supports regional variations and industry jargon"
     ]}
   >
     <div slot="description">
-      <p>Identify your highest-impact campaigns so you can invest more in what works and cut what doesn't.</p>
+      <p>Communicate with partners worldwide without language barriers. LOGAID understands and responds in multiple languages while maintaining accuracy.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center px-8">
-       <!-- Chart -->
-       <div class="w-full h-64 flex items-end justify-between gap-2">
-          {#each [40, 60, 30, 80, 50, 70, 45, 65, 35, 55, 75, 45] as height}
-             <div class="w-full bg-indigo-100 rounded-t-sm relative group">
-                <div style="height: {height}%" class="absolute bottom-0 w-full bg-indigo-500 rounded-t-sm transition-all duration-500 group-hover:bg-indigo-600"></div>
-                <div style="height: {height * 0.4}%" class="absolute bottom-0 w-full bg-teal-400 rounded-t-sm opacity-80"></div>
+       <!-- Multi-language email examples -->
+       <div class="space-y-4 w-full">
+          <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+             <div class="flex items-center gap-2 mb-2">
+                <div class="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-xs">🇬🇧</div>
+                <div class="text-xs font-semibold text-gray-900">English</div>
              </div>
-          {/each}
-       </div>
-       <!-- Legend overlay -->
-       <div class="absolute top-12 right-12 bg-white p-4 rounded-lg shadow-sm border border-gray-100 text-xs">
-          <div class="flex justify-between gap-8 mb-1">
-             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-teal-400"></span> Renewed customers</span>
-             <span class="font-semibold">231</span>
+             <div class="text-xs text-gray-600">Quote request for container shipment...</div>
           </div>
-          <div class="flex justify-between gap-8 mb-1">
-             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-indigo-500"></span> Won customers</span>
-             <span class="font-semibold">431</span>
+          
+          <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+             <div class="flex items-center gap-2 mb-2">
+                <div class="w-6 h-6 rounded-full bg-red-100 flex items-center justify-center text-xs">🇨🇳</div>
+                <div class="text-xs font-semibold text-gray-900">中文</div>
+             </div>
+             <div class="text-xs text-gray-600">集装箱运输报价请求...</div>
           </div>
-          <div class="flex justify-between gap-8">
-             <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-gray-300"></span> Churned customers</span>
-             <span class="font-semibold">41</span>
+          
+          <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+             <div class="flex items-center gap-2 mb-2">
+                <div class="w-6 h-6 rounded-full bg-yellow-100 flex items-center justify-center text-xs">🇪🇸</div>
+                <div class="text-xs font-semibold text-gray-900">Español</div>
+             </div>
+             <div class="text-xs text-gray-600">Solicitud de cotización para envío...</div>
+          </div>
+          
+          <div class="bg-green-50 px-4 py-2 rounded-lg text-xs text-green-700 font-medium border border-green-200 text-center">
+             ✓ All processed with 95%+ accuracy
           </div>
        </div>
     </div>
   </FeatureSection>
 
-  <!-- Feature 6: Security -->
+  <!-- Feature 6: Security & Compliance -->
   <FeatureSection 
-    title="Built for security, compliance, and trust"
-    subtitle=""
-    linkText="Marketing automation"
+    title="Enterprise-grade security and compliance"
+    subtitle="SECURITY & COMPLIANCE"
+    linkText="View security details"
     reversed={true}
     bullets={[
-      "ISO 27001 and SOC 2 Type II certified",
-      "End-to-end encryption for all messages",
-      "SLA-backed uptime and instant scaling for high-volume sends",
-      "Compliance with GDPR, CCPA, LGPD, POPI, and UK Data Protection Act"
+      "SOC 2 Type II and ISO 27001 certified",
+      "End-to-end encryption for all email data",
+      "GDPR compliant with data residency options",
+      "Role-based access control and audit logs"
     ]}
   >
     <div slot="description">
-      <p>Safeguard sensitive financial data and meet global regulatory requirements while strengthening customer confidence in your brand.</p>
+      <p>Trust LOGAID with your sensitive logistics data. We maintain the highest security standards to protect your communications and meet regulatory requirements.</p>
     </div>
     <div slot="visual" class="w-full h-full flex items-center justify-center">
-       <!-- Compliance Logos Grid -->
-       <div class="grid grid-cols-2 gap-8 opacity-60 grayscale">
-          <div class="flex items-center gap-2 font-bold text-lg"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"/></svg> GDPR</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🔒 SOC II</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🏥 HIPAA</div>
-          <div class="flex items-center gap-2 font-bold text-lg">⭕ OAuth</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🌐 ISO/IEC 27001</div>
-          <div class="flex items-center gap-2 font-bold text-lg">🔑 OKTA</div>
+       <!-- Security badges grid -->
+       <div class="grid grid-cols-2 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+             <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+             </div>
+             <div class="font-bold text-sm text-gray-900">SOC 2 Type II</div>
+             <div class="text-xs text-gray-500 mt-1">Certified</div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+             <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+             </div>
+             <div class="font-bold text-sm text-gray-900">ISO 27001</div>
+             <div class="text-xs text-gray-500 mt-1">Certified</div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+             <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+             </div>
+             <div class="font-bold text-sm text-gray-900">GDPR</div>
+             <div class="text-xs text-gray-500 mt-1">Compliant</div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col items-center text-center">
+             <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+             </div>
+             <div class="font-bold text-sm text-gray-900">256-bit</div>
+             <div class="text-xs text-gray-500 mt-1">Encryption</div>
+          </div>
        </div>
     </div>
   </FeatureSection>
