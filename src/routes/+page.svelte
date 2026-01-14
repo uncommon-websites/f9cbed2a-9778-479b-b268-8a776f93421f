@@ -16,6 +16,11 @@
 <main>
   <Hero />
   <Stats />
+  <FeaturesGrid 
+    sectionTitle="Powerful email automation for logistics teams"
+    sectionSubtitle="EMAIL AUTOMATION"
+    features={emailAutomationFeatures}
+  />
   <Steps />
   
   <!-- Feature 1: Email Classification -->

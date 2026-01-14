@@ -36,3 +36,18 @@
 - [ ] Resolve code execution issues
 
 ──────────────────────────────────────────────────
+
+## Session: 2026-01-14T12:44:23.504Z
+
+<!-- DO NOT EDIT - Managed by todo_list tool -->
+<!-- Updated: 2026-01-14T12:43:55.737Z -->
+
+# Current Todo List State
+
+- [ ] Create features section
+- [ ] Add feature 1: automation
+- [ ] Add feature 2: email flows
+- [ ] Add feature 3: segmentation
+- [ ] Style features section
+
+──────────────────────────────────────────────────
