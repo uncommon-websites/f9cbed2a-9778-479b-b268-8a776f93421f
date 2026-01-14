@@ -341,31 +341,3 @@
 </main>
 
 <Footer />
-
-/>
-  <Resources />
-  <BottomCTA />
-</main>
-
-<Footer />
-
-er />
-
-
-  <BottomCTA />
-</main>
-
-<Footer />
-
-er />
-
-/>
-
-
-  <BottomCTA />
-</main>
-
-<Footer />
-
-er />
-
