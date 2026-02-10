@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 @theme {
-	/* Cold Ops Slate Gray Scale */
-	--color-gray-50: oklch(0.984 0.003 247.858);
+	/* Steel Gray Scale */
+	--color-gray-50: oklch(0.985 0.002 247.858);
 	--color-gray-100: oklch(0.968 0.007 247.896);
 	--color-gray-200: oklch(0.929 0.013 255.508);
 	--color-gray-300: oklch(0.869 0.022 252.894);
@@ -15,18 +15,18 @@
 	--color-gray-900: oklch(0.208 0.042 265.755);
 	--color-gray-950: oklch(0.129 0.042 264.695);
 
-	/* Signal Freight Blue Primary Scale */
-	--color-primary-50: oklch(0.97 0.014 254.604);
-	--color-primary-100: oklch(0.932 0.032 255.585);
-	--color-primary-200: oklch(0.882 0.059 254.128);
-	--color-primary-300: oklch(0.809 0.105 251.813);
-	--color-primary-400: oklch(0.707 0.165 254.624);
-	--color-primary-500: oklch(0.623 0.214 259.815);
-	--color-primary-600: oklch(0.546 0.245 262.881);
-	--color-primary-700: oklch(0.488 0.243 264.376);
-	--color-primary-800: oklch(0.424 0.199 265.638);
-	--color-primary-900: oklch(0.379 0.146 265.522);
-	--color-primary-950: oklch(0.282 0.091 267.935);
+	/* Precision Teal Primary Scale */
+	--color-primary-50: oklch(0.984 0.014 180.72);
+	--color-primary-100: oklch(0.953 0.051 180.801);
+	--color-primary-200: oklch(0.91 0.096 180.426);
+	--color-primary-300: oklch(0.855 0.138 181.071);
+	--color-primary-400: oklch(0.777 0.152 181.912);
+	--color-primary-500: oklch(0.704 0.14 182.503);
+	--color-primary-600: oklch(0.6 0.118 184.704);
+	--color-primary-700: oklch(0.511 0.096 186.391);
+	--color-primary-800: oklch(0.437 0.078 188.216);
+	--color-primary-900: oklch(0.386 0.063 188.416);
+	--color-primary-950: oklch(0.277 0.046 192.524);
 
 	--color-secondary-50: oklch(97% 0.015 30);
 	--color-secondary-100: oklch(92% 0.02 30);
@@ -40,7 +40,7 @@
 	--color-secondary-900: oklch(30% 0.1 30);
 	--color-secondary-950: oklch(20% 0.11 30);
 
-	--font-body: "Roboto Flex", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	--font-display: var(--font-body);
 }
 
